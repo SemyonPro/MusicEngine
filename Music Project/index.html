@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/img/favicon.png" type="image/gif" sizes="16x16">
+  <title>Music Engine</title>
+
+  <!-- Favicons -->
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/vendor/icofont/icofont.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/musicCard.css">
+  <link rel="stylesheet" href="assets/css/top.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <script src="assets/js/musicApp.js"></script>
+  <script src="assets/js/musicManager.js"></script>
+  <script src="assets/js/viewEvents.js"></script>
+  <script src="assets/js/top.js"></script>
+</head>
+
+<body>
+
+  <header id="header" class="header-tops">
+    <div class="container">
+      <h1><a href="index.html">Music Engine</a></h1>
+      <h2>Listen To Music <span>For The Body</span> & Soul</h2>
+      <div class="row my-4 ml-1">
+        <select id="select_sort" class="btn btn-primary mr-2">
+          <option value="">Sort</option>
+          <option value="name">Name</option>
+          <option value="released">Date</option>
+        </select>
+        <input type="text" id="id_input" class="btn btn-light mr-2">
+        <button id="search_btn" class="btn btn-primary"><span class="iconify"
+            data-icon="octicon-search" data-inline="false"></span></button>
+      </div>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
+        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <div class="bg-img">
+      <div class="container">
+        <div id="id_row" class="row justify-content-between">
+          <!-- <div class='col-lg-4 col-sm-12'>
+            <div class='music-card playing'>
+              <div style="background: url('/assets/img/bg5.jpg') no-repeat 75%;" class='image'></div>
+              <div class='wave'></div>
+              <div class='wave'></div>
+              <div class='wave'></div>
+              <div class='info'>
+                <h2 class='title'></h2>
+                <div class='artist'></div>
+                <div class="sound">
+                  <audio controls class="btn">
+                    <source src="" type="audio/ogg">
+                    <source src="" type="audio/mpeg">
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <div class="bg-dark text-center text-light">
+      <div class="text-center p-3">
+        © 2021 Copyright All Rights Reserved:
+        <a href="index.html">MUSIC ENGINE</a>
+      </div>
+      <a href="#" id="toTopBtn" class="cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
